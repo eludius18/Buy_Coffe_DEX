@@ -1,12 +1,12 @@
-## Buy me a Coffe DEX
+# Buy me a Coffe DEX
 
-# Install Dependencies
+## Install Dependencies
 
 ```shell
 yarn install
 ```
 
-# Create .env and add the info
+## Create .env and add the info
 
 ```shell
 GOERLI_URL=""
@@ -14,36 +14,35 @@ GOERLI_API_KEY=""
 PRIVATE_KEY=""
 ```
 
-# Install .env
+## Install .env
 
 ```shell
 npm install dotenv
 ```
 
-# Compile
+## Compile
 
 ```shell
 npx hardhat compile
 ```
 
-# Test
+## Test
 
 ```shell
 npx hardhat run scripts/buy-coffee.js
 ```
 
-# Deploy
+## Deploy
 
 ```shell
 npx hardhat run scripts/deploy.js
 ```
 
-# Deploy contract on Ropsten
+## Deploy contract on Ropsten
 
 ```shell
 npx hardhat run --network goerli scripts/deploy.js
 ```
-
 ## Deployed contracts
 
 https://goerli.etherscan.io/address/0xeB5aDe3F3d7a58C16E5979B96cff225a1395662e#code
