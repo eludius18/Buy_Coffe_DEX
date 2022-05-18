@@ -17,7 +17,7 @@ PRIVATE_KEY=""
 ## Install .env
 
 ```shell
-npm install dotenv
+yarn add dotenv
 ```
 
 ## Compile
