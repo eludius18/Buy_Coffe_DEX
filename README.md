@@ -41,7 +41,7 @@ npx hardhat run scripts/deploy.js
 # Deploy contract on Ropsten
 
 ```shell
-npx hardhat run --network ropsten scripts/deploy.js  
+npx hardhat run scripts/deploy.js  
 ```
 
 ## Deployed contracts
