@@ -3,7 +3,7 @@
 # Install Dependencies
 
 ```shell
-npm install
+yarn install
 ```
 
 # Create .env and add the info
@@ -41,7 +41,7 @@ npx hardhat run scripts/deploy.js
 # Deploy contract on Ropsten
 
 ```shell
-npx hardhat run scripts/deploy.js  
+npx hardhat run --network goerli scripts/deploy.js
 ```
 
 ## Deployed contracts
